@@ -1,5 +1,7 @@
 [workspace]
 members = [
+  "facet-format",
+
   # core
   "facet-core",
   "facet",
@@ -67,6 +69,9 @@ repository = "https://github.com/facet-rs/facet"
 
 [workspace.dependencies]
 facet = { path = "facet", version = "0.50.0-rc.0" }
+facet-format = { path = "facet-format" }
+facet-path = { path = "facet-path" }
+facet-solver = { path = "facet-solver" }
 facet-axum = { path = "facet-axum", version = "0.50.0-rc.0" }
 facet-core = { path = "facet-core" }
 facet-cargo-toml = { path = "facet-cargo-toml", version = "0.50.0-rc.0" }
